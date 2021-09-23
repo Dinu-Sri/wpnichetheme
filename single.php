@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 
+
+
 <div class="container">
 <div class="main">
-
 <?php if(have_posts()) : ?>
 	<?php while(have_posts()): the_post(); ?>
 		<article class="post">
@@ -28,7 +29,7 @@
 	<?php echo wpautop('Sorry, No posts were found'); ?>
 <?php endif; ?>
 
-<?php comments_template(); ?>
+
 </div>
 
 

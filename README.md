@@ -13,7 +13,7 @@ A custom light weight WP theme for niche websites. All the unnecessary loadings 
 
 ## Requirements to Develop or Modify the Theme
 
-You need to install AMPPS, WAMP, or XAMP to make your server environment compositable with WordPress installation. 
+You need to install AMPPS, WAMP, or XAMP to make your server environment compatible with WordPress installation. 
 
 ## Development Path
 
