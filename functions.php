@@ -98,6 +98,7 @@ add_filter( 'wp_trim_excerpt', 'wpshout_excerpt' );
 
 
 
+
 //Remove all emoji in WP..................
 
       function disable_emoji_feature() {
