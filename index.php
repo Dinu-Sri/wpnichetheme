@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
  
-<div class="w3-main w3-content w3-padding" style="max-width:70%;margin-top:100px"> 
+<div class="w3-main w3-content w3-padding" style="max-width:70%;margin-top:100px; "> 
  <?php if(have_posts()) : ?> 
 
            <?php while(have_posts()): the_post(); ?> 
-           	<div class=" w3-third w3-container ">
+           	<div class=" w3-third w3-container " style="min-height: 350px;">
            		<div class="pushup_anim w3-center " >
            	
          			<?php the_post_thumbnail('full', array('class' => 'w3-round-xlarge w3-image w3-card')); ?>
